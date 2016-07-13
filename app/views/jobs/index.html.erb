@@ -1,0 +1,48 @@
+ <h2 align="center"> Current Jobs Listing</h2>
+
+ <div class="container-fluid">
+
+  <div class="row">
+   <div class="col-md-3">
+      <div class="sidebar1">
+        <div class="list-group">
+  <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; New Jobs</a>
+  <a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a>
+  <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
+  <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a>
+  <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
+  <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
+</div>
+
+      </div>
+    </div>
+  <div class="col-md-9">   
+   <% @jobs.each do |job| %>
+         
+       <div class="well">
+        <div class="job-title">
+         <%= link_to job.title, job_path(job), class: "job-titl", id: "title" %>
+          </div>
+           <div class="job-body">
+           <%= truncate(job.description, length: 250) %>
+           </div>
+           <div class="job-actions">
+            <%= link_to "View this job", job_path(job), class: "btn btn-xs", id: "view" %>
+            <%= link_to 'Edit', edit_job_path(job), class: "btn btn-xs" %>
+            <%= link_to 'Delete this job', job_path(job), method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-xs" %>
+            </div>
+           </div>
+          <% end %>
+         </div>
+        </div>        
+       </div>
+
+
+
+
+
+ 
+
+
+
+

@@ -1,0 +1,208 @@
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.navbar-default {
+	background-color: #0078d7;
+	font-color: #fff;
+}
+
+#logo {
+	float: left;
+	font-size: 1.7em;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-spacing: -1px;
+	font-weight: bold;
+
+}
+
+#logo:hover {
+	color:#fff;
+	text-decoration: none;
+}
+
+.navbar-default .navbar-nav> li> a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#title {
+	color: #0078d7;
+	font-family: open_sansregular, Helvetica;
+}
+
+.center {
+	text-align: center;
+}
+
+.jumbotron h2 {
+	color: #0078d7;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+
+}
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #0078d7;
+	
+}
+
+
+footer small {
+	float: left;
+}
+
+footer ul {
+	float: right;
+	list-style: none;
+}
+
+footer ul li {
+	float: left;
+	margin-left: 25px;
+}
+
+.well-about {
+	background-color: #ededed;
+	border: 1px 1px 1px 1px;
+	border-color: #ededed;
+}
+
+
+.my {
+	background-color: #ededed;
+	margin-top: -5px;
+}
+
+#header {
+	font-color: #0078d7;
+}
+
+.job-title {
+	font-color: #0078d7;
+	font-size: 1.2em;
+	margin-top: 0px;
+	margin-bottom: 5px;
+
+}
+
+
+.job-body {
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 5px;
+	font-family: open_sansregular, Helvetica;
+	
+}
+
+.well {
+	background-color: #ffffff;
+	margin-top: 5px;
+	border-bottom: 1px dotted #0078d7;
+}
+
+.my-style {
+	color: #0078d7;
+}
+
+#view {
+	color: #008000;
+	font-weight: bold;
+	font-family: open_sansregular, Helvetica;
+
+}
+
+.show-title {
+	color: #0078d7;
+	font-weight: bold;
+	font-family: open_sansregular, Helvetica;
+}
+
+
+row > div{
+        margin-bottom: 15px;
+    }
+
+    .sidebar1{
+        background: #dbdfe5;
+    }
+    .content1{
+        background: #fff;
+    }
+    .sidebar1 {
+      min-height: 1200px;
+      background: #fff;
+      Border-color: #dbdfe5;
+
+    } 
+
+
+    .content1{
+        min-height: 400px;
+    }
+
+    .content{
+        background: #fff;
+    }
+
+    .sidebar{
+        background: #fff;
+    }
+    .sidebar {
+      min-height: 1100px;
+      margin-top: 5px;
+      background: #e1e1e1;
+
+    }
+
+
+    .content{
+        min-height: 300px;
+    }
+
+    .left-bar1 {
+       min-height: 400px;
+       background: #dbdfe5;
+       margin-top: 5px;
+
+    }
+
+    .left-bar {
+       min-height: 300px;
+       background: #dbdfe5;
+
+    }
+     
+   .sidebar2 {
+   background: #dbdfe5;
+   min-height: 90px;
+   border-color: #0078d7;
+   }
+
+  .modal-header, h4, .close {
+      background-color: #0078d7;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+
+  #myBtn {
+  position: right;
+  margin-right: 5px;
+  }
+
+  #nav {
+    font-size: 1.7em;
+    font-wight: bold;
+
+  }
