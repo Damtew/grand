@@ -43,11 +43,18 @@
 }
 
 .jumbotron {
-   background-color: #f4f4f4;
+   background: rgba(14,105,175,0.97);
+background: -moz-linear-gradient(top, rgba(14,105,175,0.97) 29%, rgba(17,110,180,0.97) 33%, rgba(41,145,214,0.98) 63%, rgba(41,145,214,0.99) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(29%, rgba(14,105,175,0.97)), color-stop(33%, rgba(17,110,180,0.97)), color-stop(63%, rgba(41,145,214,0.98)), color-stop(100%, rgba(41,145,214,0.99)));
+background: -webkit-linear-gradient(top, rgba(14,105,175,0.97) 29%, rgba(17,110,180,0.97) 33%, rgba(41,145,214,0.98) 63%, rgba(41,145,214,0.99) 100%);
+background: -o-linear-gradient(top, rgba(14,105,175,0.97) 29%, rgba(17,110,180,0.97) 33%, rgba(41,145,214,0.98) 63%, rgba(41,145,214,0.99) 100%);
+background: -ms-linear-gradient(top, rgba(14,105,175,0.97) 29%, rgba(17,110,180,0.97) 33%, rgba(41,145,214,0.98) 63%, rgba(41,145,214,0.99) 100%);
+background: linear-gradient(to bottom, rgba(14,105,175,0.97) 29%, rgba(17,110,180,0.97) 33%, rgba(41,145,214,0.98) 63%, rgba(41,145,214,0.99) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e69af', endColorstr='#2991d6', GradientType=0 );
    hight: 30px;
 
  h2 {
-	color: #006b9c;
+	color: #fff;
 	text-align: center;
 	margin-bottom: 30px;
 	letter-spacing: -1px;
@@ -115,7 +122,7 @@ footer ul li {
 
 .job-title {
 	font-color: #0078d7;
-	font-size: 1.2em;
+	font-size: 1.6em;
 	margin-top: 0px;
 	margin-bottom: 5px;
 
